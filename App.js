@@ -8,13 +8,12 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 export default function App() {
   return (
-    <SafeAreaProvider>
       <Provider store={store}>
-        <HomeScreen />
+        <SafeAreaProvider>
+          <HomeScreen />
+        </SafeAreaProvider>        
       </Provider>
-    </SafeAreaProvider>
-      
-      
+
   );
 }
 

@@ -18,8 +18,7 @@ const HomeScreen = () => {
                 }}
                  source={uberlogo}
 
-            /> 
-
+            />
            <NavOptions />
         </View>
 
